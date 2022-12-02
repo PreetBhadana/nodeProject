@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Login System</title>
+    </head>
+    <style>
+        .card{
+            margin-top: auto;
+            border: 2px solid blue;
+            width: 450px;
+            padding: 45px;
+            position: absolute;
+            top: 15%;
+            left: 29%;
+            border-radius: 10px;
+        }
+        .box{
+            width: 100%;
+            height: 25px;
+            margin-top: 5px;
+            padding: 5px;
+
+        }
+        .btn{
+            width: 30%;
+            align-items: auto;
+            height: 35px;
+            font-size: 24px;
+            background-color: rgb(0, 110, 255);
+            color: rgb(255, 255, 255);
+            margin-top: 6px;
+            border-radius: 55px;
+            
+            
+
+        }
+        h1,h5{
+            text-align: center;
+        }
+    </style>
+    <body>
+        <div class="card">
+          <div class="text-center">
+              <h1> Login System </h1>
+              <h5>made by nitin</h5>
+          </div>
+          <form>
+            <label class="from-label">User name</label>
+            <input placeholder="Enter username" type="username" class="box" id="username"><br>
+            <label class="form-label">Password</label>
+            <input placeholder="Enter password" type="password" class="box" id="password"><br>
+            <button type="button" class="btn" onclick="getInfo()">Login me</button>
+          </form>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
